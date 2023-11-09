@@ -2,6 +2,7 @@ import pyodbc as odbc
 import pyodbc
 import tkinter as tk
 from tkinter import messagebox
+import ast 
 
 
 DRIVER_NAME = 'SQL Server'
@@ -24,12 +25,6 @@ except Exception as e:
     print(f"Error: {e}")
 finally:
     conn.close()
-
-import pyodbc
-import tkinter as tk
-from tkinter import *
-from tkinter import messagebox
-import ast 
  
 
 # Create a tkinter window
